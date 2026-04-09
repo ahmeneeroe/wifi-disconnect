@@ -7,7 +7,7 @@ A lightweight macOS daemon that automatically disconnects from your iPhone hotsp
 - A Swift daemon listens for macOS sleep/wake notifications via a RunLoop (zero CPU when idle, ~15 MB RAM)
 - On sleep: detects iPhone hotspot by IP subnet (`172.20.10.0/28`) and disconnects via CoreWLAN
 - On wake: re-enables WiFi if it was turned off as a fallback
-- SSID pattern matching ("DAAAVID") is a secondary detection method (requires Location Services)
+- SSID pattern matching ("WiFi-Name") is a secondary detection method (requires Location Services)
 
 ## Files
 

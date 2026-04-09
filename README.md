@@ -30,7 +30,4 @@ cat ~/.config/wifi-disconnect/disconnect.log
 
 # Check service status
 launchctl print gui/$(id -u)/com.user.wifi-disconnect
-
-# Resume this Claude session
-cd /Users/papillonm5/Documents/Projects/wifi-disconnect && claude --resume hotspot-lid-disconnect
 ```

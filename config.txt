@@ -1,4 +1,4 @@
 # WiFi SSID patterns to disconnect on sleep (one per line).
 # Case-insensitive substring match.
 # Lines starting with # are comments.
-DAAAVID
+WiFiName
